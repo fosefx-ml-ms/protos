@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service MLBackend {
+    // note: we might need to split the images into chunks
+    rpc ClassifyImage(ImageClassificationRequest) returns (ImageClassificationResponse) {}
+}
+
+message ImageClassificationRequest {
+    bytes image = 1;
+}
+
+message ImageClassificationResponse {
+    string resultReadable = 1;
+}
