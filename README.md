@@ -1,2 +1,2 @@
-# protos
+# Prototype Buffers
 All Prototype Buffers
