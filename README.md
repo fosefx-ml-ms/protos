@@ -1,2 +1,2 @@
-# Prototype Buffers
-All Prototype Buffers
+# Protocol Buffers
+All Protocol Buffers
